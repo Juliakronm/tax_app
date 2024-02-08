@@ -6,7 +6,7 @@ run = True
 
 # Loop för att programmet ska vara aktivt enligt föregående variabel.
 while run:
-    answer = input('Välkommen till denna enkla applikation där du får möjlighet att titta på miljöskatt för privatkonsumption mellan åren 2011-2021. Välj ett av nedan val.'
+    answer = input('\n\nVälkommen till denna enkla applikation där du får möjlighet att titta på miljöskatt för privatkonsumption mellan åren 2011-2021. Välj ett av nedan val.'
                     "\n\nMeny:"
                    '\n1. Se miljöskatten som diagram med samtliga år'
                    '\n2. Jämför två år'
