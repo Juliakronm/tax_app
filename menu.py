@@ -12,8 +12,6 @@ while run:
                    '\n2. Jämför två år'
                    '\n3. Jämför tre år'
                    '\n4. Visa samtliga år i en tabell'
-                   '\n5. tbc'
-                   '\n6. tbc'
                    '\nQ. Avsluta program'
                    '\n -> ').strip()
     # Se till att rätt svar leder till rätt funktion
@@ -30,12 +28,6 @@ while run:
         # Startar funktion 4 enligt användarens val.
         case '4':
             main.show_as_list()
-        # Startar funktion 5 enligt användarens val.
-        case '5':
-            print('Oj, här var det tomt. Återkom senare igen.')
-        # Startar funktion 6 enligt användarens val.
-        case '6':
-            print('Oj, här var det tomt. Återkom senare igen.')
         # För att avsluta programmet
         case 'q':
             run = False
